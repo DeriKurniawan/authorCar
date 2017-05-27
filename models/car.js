@@ -7,7 +7,9 @@ module.exports = function(sequelize, DataTypes) {
     silinder: DataTypes.STRING,
     image: DataTypes.STRING,
     description: DataTypes.STRING,
-    status: DataTypes.BOOLEAN
+    status: DataTypes.BOOLEAN,
+    price: DataType.INTEGER,
+    author: DataType.STRING
   }, {
     classMethods: {
       associate: function(models) {
